@@ -12,7 +12,7 @@ namespace NeoFastTaxCalc
             switch (Globals.option)
             {
                 case "pit2022":
-                    Globals.desc = "Stawki PIT 12% i 32%, kwota wolna 30000%, zaś składka zdrowotna liniowa 9%. Wynik Polskiego Ładu.";
+                    Globals.desc = "Stawki PIT 12% i 32%, kwota wolna 30000%, zaś składka zdrowotna liniowa 9%.";
                     break;
                 case "pit2020":
                     Globals.desc = "Stawki 17% i 32%, kwota wolna degresywna.";
@@ -24,7 +24,7 @@ namespace NeoFastTaxCalc
                     Globals.desc = "Stawki 18% i 32%, kwota wolna degresywna. UWAGA: zaliczki na podatek liczy się według skali z 2009!";
                     break;
                 case "pit2017":
-                    Globals.desc = "Stawki 18% i 32%, kwota wolna degresywna. Skomplikowane prawo wprowadzone przez PiS. UWAGA: zaliczki na podatek liczy się według skali z 2009!";
+                    Globals.desc = "Stawki 18% i 32%, kwota wolna degresywna. UWAGA: zaliczki na podatek liczy się według skali z 2009!";
                     break;
                 case "pit2009":
                     Globals.desc = "Stawki 18% i 32%, kwota wolna 3091 zł dla wszystkich, obniżka przyjęta przez Sejm RP 27 października 2006. Obowiązująca do 2016.";
@@ -74,7 +74,7 @@ namespace NeoFastTaxCalc
                     break;
 
                 case "flat2022":
-                    Globals.desc = "Podatek Liniowy od 2022, liniowy tylko z nazwy, obowiązuje składka NFZ 4,9% i danina solidarnościowa dla zarobków powyżej miliona.";
+                    Globals.desc = "Podatek Liniowy od 2022, obowiązuje składka NFZ 4,9% i danina solidarnościowa dla zarobków powyżej miliona.";
                     break;
                 case "flat":
                     Globals.desc = "Opcja liniowego rozliczenia PIT wprowadzona w 2004 roku. 19% bez żadnych odliczeń.";
