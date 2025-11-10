@@ -89,7 +89,7 @@
             this.MaximumSize = new System.Drawing.Size(515, 295);
             this.MinimumSize = new System.Drawing.Size(515, 295);
             this.Name = "About";
-            this.Text = "About";
+            this.Text = "O programie";
             ((System.ComponentModel.ISupportInitialize)(this.iconAboutImage)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
