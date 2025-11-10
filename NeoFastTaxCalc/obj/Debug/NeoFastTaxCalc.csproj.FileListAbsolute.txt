@@ -1,0 +1,10 @@
+C:\Users\PC\source\repos\NeoFastTaxCalc\NeoFastTaxCalc\bin\Debug\NeoFastTaxCalc.exe
+C:\Users\PC\source\repos\NeoFastTaxCalc\NeoFastTaxCalc\bin\Debug\NeoFastTaxCalc.pdb
+C:\Users\PC\source\repos\NeoFastTaxCalc\NeoFastTaxCalc\obj\Debug\NeoFastTaxCalc.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\NeoFastTaxCalc\NeoFastTaxCalc\obj\Debug\NeoFastTaxCalc.Properties.Resources.resources
+C:\Users\PC\source\repos\NeoFastTaxCalc\NeoFastTaxCalc\obj\Debug\NeoFastTaxCalc.csproj.GenerateResource.cache
+C:\Users\PC\source\repos\NeoFastTaxCalc\NeoFastTaxCalc\obj\Debug\NeoFastTaxCalc.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\NeoFastTaxCalc\NeoFastTaxCalc\obj\Debug\NeoFastTaxCalc.exe
+C:\Users\PC\source\repos\NeoFastTaxCalc\NeoFastTaxCalc\obj\Debug\NeoFastTaxCalc.pdb
+C:\Users\PC\source\repos\NeoFastTaxCalc\NeoFastTaxCalc\obj\Debug\NeoFastTaxCalc.Form.resources
+C:\Users\PC\source\repos\NeoFastTaxCalc\NeoFastTaxCalc\obj\Debug\NeoFastTaxCalc.About.resources

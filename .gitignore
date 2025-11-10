@@ -1,0 +1,11 @@
+/bin
+/obj
+/Debug
+/Release
+.vs/
+*.user
+*.suo
+*.exe
+*.tmp
+*.log
+*.pdb
