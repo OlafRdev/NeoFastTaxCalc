@@ -10,16 +10,31 @@ namespace NeoFastTaxCalc
     {
         public void export()
         {
-            using (SaveFileDialog sfd = new SaveFileDialog())
+            try
             {
-                sfd.Filter = "Pliki tekstowe (*.txt)|*.txt";
-                sfd.Title = "Zapisz wynik do pliku";
-                sfd.FileName = "Podatek.txt";
-
-                if (sfd.ShowDialog() == DialogResult.OK)
+                if (Globals.res == null || Globals.res.Trim().Length == 0)
                 {
-                    System.IO.File.WriteAllText(sfd.FileName, Globals.res);
+                    MessageBox.Show("Brak danych do eksportu. Najpierw oblicz podatek.", "Błąd",MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
                 }
+                string fileName = "Podatek " + DateTime.Now.ToString("dd-MM-yyyy HH-mm") + ".txt";
+                using (SaveFileDialog sfd = new SaveFileDialog())
+                {
+                    sfd.Filter = "Pliki tekstowe (*.txt)|*.txt";
+                    sfd.Title = "Zapisz wynik do pliku";
+                    sfd.FileName = fileName;
+
+                    if (sfd.ShowDialog() != DialogResult.OK) return;
+
+                    string currentScale = Globals.selectedOption;
+                    string exportTax = "Skala podatkowa: " + currentScale + "\n" + Globals.res;
+
+                    System.IO.File.WriteAllText(sfd.FileName, exportTax);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Błąd", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
     }
