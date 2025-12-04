@@ -36,6 +36,11 @@ namespace NeoFastTaxCalc
 
         private void calcButton_Click(object sender, EventArgs e)
         {
+            if(Globals.selectedOption == null)
+            {
+                MessageBox.Show(this, "Wybierz skalę podatkową przed obliczeniem podatku.", "Błąd", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
             Globals.income = incomeInput.Value;
             Option opt = new Option();
             opt.Opt();
